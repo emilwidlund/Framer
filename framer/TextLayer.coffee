@@ -308,7 +308,7 @@ class exports.TextLayer extends Layer
 		@disableAutosizeUpdating = false
 
 	defaultFont: ->
-		return Utils.deviceFont(Framer.Device.platform())
+		return 'Arial, Helvetica, sans-serif'
 
 	textReplace: (search, replace) ->
 		oldText = @text
